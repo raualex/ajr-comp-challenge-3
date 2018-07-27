@@ -1,0 +1,87 @@
+body {
+  display: grid;
+  font-family: 'Open Sans', sans-serif;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0;
+}
+
+.calendar-btn {
+  width: 138px;
+}
+
+.first-menu {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-around;
+}
+
+.home-btn {
+  width: 100px;
+}
+
+.jobs-btn {
+  width: 90px;
+}
+
+.menu-btn {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-headers {
+  color: #A2ABBD;
+}
+
+.menu-image {
+  height: 25px;
+  width: 25px;
+}
+
+.menu-image:hover {
+  filter: brightness(100)
+}
+
+.menu-image:hover + .nav-items {
+  filter: brightness(100)
+}
+
+.name-title {
+  color: #A2ABBD;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.nav-items {
+  color: #A2ABBD;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.navigation-sidebar {
+  background-color: #374050;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 20px 20px 20px 20px;
+}
+
+.nav-profile-area {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-pic {
+  border-radius: 150%;
+  width: 160px;
+}
+
+.resumes-btn {
+  width: 126px;
+}
+
+.tasks-btn {
+  width: 100px;
+}
