@@ -2,12 +2,22 @@ body {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px 150px 1fr 1fr 1fr;
+  grid-template-rows: 100px 180px 50px 1fr 1fr;
   margin: 0;
 }
 
 .admin-check {
   width: 172px;
+}
+
+.body-nav-tabs {
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-content: flex-start;
+  padding-left: 40px;
 }
 
 .button-head {
@@ -174,6 +184,15 @@ body {
   margin: 0;
 }
 
+.nav-tab {
+  align-items: center;
+  color: #A2ABBD;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  width: 125px;
+}
+
 .navigation-sidebar {
   background-color: #374050;
   grid-column-start: 1;
@@ -193,6 +212,10 @@ body {
 
 .not-checkbox-header {
   margin-bottom: 0;
+}
+
+.notifications-tab {
+  margin-left: 30px;
 }
 
 .open-button {
@@ -251,6 +274,14 @@ body {
 
 .social-btn {
   width: 116px;
+}
+
+.summary-tab {
+  color: #000000;
+  border-bottom: solid 4px #47A3F3;
+  margin-left: 10px;
+  margin-right: 30px;
+  width: 76px;
 }
 
 .tasks-btn {
