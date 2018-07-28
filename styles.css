@@ -2,7 +2,7 @@ body {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 50px 1fr 1fr 1fr;
+  grid-template-rows: 100px 1fr 1fr 1fr;
   margin: 0;
 }
 
@@ -51,7 +51,16 @@ body {
   display: flex;
   height: 100%;
   justify-content: center;
-  width: 66px;
+  width: 140px;
+}
+
+.icon-box:hover {
+  background-color: #47A3F3;
+  border:  solid 1px #47A3F3;
+}
+
+.icon-box:hover .search-icons {
+  filter: brightness(100)
 }
 
 .jobs-btn {
@@ -138,14 +147,25 @@ body {
 }
 
 .search-bar {
-  background-image: url('Images/001-magnifying=glass.svg');
+  background-image: url('Images/001-magnifying-glass.svg');
   background-repeat: no-repeat;
-  width: 620px;
+  background-position: 20px 35px;
+  background-size: 30px 30px;
+  font-size: 1.5rem;
+  height: 95px;
+  text-indent: 66px;
+  width: 100%;
+}
+
+.search-bar::placeholder {
+  color: #A2ABBD;
+  font-family: 'Open Sans', sans-serif;;
 }
 
 .search-icons {
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
+
 }
 
 .search-menu {
