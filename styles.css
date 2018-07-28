@@ -1,0 +1,147 @@
+body {
+  display: grid;
+  font-family: 'Open Sans', sans-serif;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0;
+}
+
+.admin-check {
+  width: 172px;
+}
+
+.calendar-btn {
+  width: 138px;
+}
+
+.design-check {
+  width: 116px;
+}
+
+.down-arrow {
+  height: 12px;
+  width: 12px;
+}
+
+.executive-check {
+  width: 136px;
+}
+
+.first-menu,
+.second-menu {
+  border-bottom: solid 1px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.home-btn {
+  width: 100px;
+}
+
+.hr-check {
+  width: 202px;
+}
+
+.jobs-btn {
+  width: 90px;
+}
+
+.job-boards-btn {
+  width: 158px;
+}
+
+.locations-btn {
+  width: 150px;
+}
+
+.menu-btn {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-headers {
+  color: #A2ABBD;
+}
+
+.menu-image {
+  height: 25px;
+  width: 25px;
+}
+
+.menu-image:hover {
+  filter: brightness(100)
+}
+
+.menu-image:hover + .nav-items {
+  filter: brightness(100)
+}
+
+.name-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+}
+
+.name-title {
+  color: #A2ABBD;
+  font-size: 1rem;
+}
+
+.nav-items {
+  color: #A2ABBD;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.navigation-sidebar {
+  background-color: #374050;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 40px 0 0 0;
+}
+
+.nav-profile-area {
+  align-items: center;
+  border-bottom: solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not-checkbox-header {
+  margin-bottom: 0;
+}
+
+.profile-pic {
+  border-radius: 150%;
+  width: 124px;
+}
+
+.resumes-btn {
+  width: 126px;
+}
+
+.social-btn {
+  width: 116px;
+}
+
+.tasks-btn {
+  width: 100px;
+}
+
+.third-menu {
+  border-bottom: solid 1px;
+  padding-left: 20px;
+}
+
+.users-btn {
+  width: 110px;
+}
+
+.workflows-btn {
+  width: 160px;
+}
