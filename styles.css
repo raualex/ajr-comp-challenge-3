@@ -2,6 +2,7 @@ body {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px 1fr 1fr 1fr;
   margin: 0;
 }
 
@@ -42,6 +43,15 @@ body {
 
 .hr-check {
   width: 202px;
+}
+
+.icon-box {
+  align-items: center;
+  border: solid 1px #f3f3f3;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 66px;
 }
 
 .jobs-btn {
@@ -101,6 +111,8 @@ body {
   background-color: #374050;
   grid-column-start: 1;
   grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 5;
   padding: 40px 0 0 0;
 }
 
@@ -123,6 +135,27 @@ body {
 
 .resumes-btn {
   width: 126px;
+}
+
+.search-bar {
+  background-image: url('Images/001-magnifying=glass.svg');
+  background-repeat: no-repeat;
+  width: 620px;
+}
+
+.search-icons {
+  height: 20px;
+  width: 20px;
+}
+
+.search-menu {
+  align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-content: space-around;
 }
 
 .social-btn {
