@@ -5,23 +5,55 @@ body {
   margin: 0;
 }
 
+.admin-check {
+  width: 172px;
+}
+
 .calendar-btn {
   width: 138px;
 }
 
-.first-menu {
+.design-check {
+  width: 116px;
+}
+
+.down-arrow {
+  height: 12px;
+  width: 12px;
+}
+
+.executive-check {
+  width: 136px;
+}
+
+.first-menu,
+.second-menu {
+  border-bottom: solid 1px;
   display: flex;
   flex-direction: column;
   height: 450px;
   justify-content: space-around;
+  padding-left: 20px;
 }
 
 .home-btn {
   width: 100px;
 }
 
+.hr-check {
+  width: 202px;
+}
+
 .jobs-btn {
   width: 90px;
+}
+
+.job-boards-btn {
+  width: 158px;
+}
+
+.locations-btn {
+  width: 150px;
 }
 
 .menu-btn {
@@ -47,6 +79,13 @@ body {
   filter: brightness(100)
 }
 
+.name-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 164px;
+}
+
 .name-title {
   color: #A2ABBD;
   font-size: 1rem;
@@ -62,25 +101,47 @@ body {
   background-color: #374050;
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 20px 20px 20px 20px;
+  padding: 40px 0 0 0;
 }
 
 .nav-profile-area {
   align-items: center;
+  border-bottom: solid 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.not-checkbox-header {
+  margin-bottom: 0;
+}
+
 .profile-pic {
   border-radius: 150%;
-  width: 160px;
+  width: 124px;
 }
 
 .resumes-btn {
   width: 126px;
 }
 
+.social-btn {
+  width: 116px;
+}
+
 .tasks-btn {
   width: 100px;
+}
+
+.third-menu {
+  border-bottom: solid 1px;
+  padding-left: 20px;
+}
+
+.users-btn {
+  width: 110px;
+}
+
+.workflows-btn {
+  width: 160px;
 }
