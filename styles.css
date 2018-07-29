@@ -14,10 +14,6 @@ h1 {
   font-size: 2rem;
 }
 
-hr {
-  height: 2px;
-}
-
 .admin-check {
   width: 172px;
 }
@@ -119,6 +115,12 @@ hr {
   width: 660px;
 }
 
+.copy-button {
+  background-color: #65BABC;
+  border: none;
+  color: #ffffff;
+}
+
 .description-body {
   margin-left: 22px;
 }
@@ -167,6 +169,22 @@ hr {
 
 .experience-body {
   margin-left: 32px;
+}
+
+.facebook {
+  background-color: #5070BA;
+}
+
+.facebook,
+.twitter,
+.linkedin {
+  align-items: center;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  height: 54px;
+  justify-content: flex-start;
+  width: 412px;
 }
 
 .first-menu,
@@ -225,7 +243,8 @@ hr {
 .horizontal-break {
   color: #A2ABBD;
   margin-top: 12px;
-  width: 504px;
+  width: 528px;
+
 }
 
 .hr-check {
@@ -323,6 +342,42 @@ hr {
   width: 60%;
 }
 
+.linkedin {
+  background-color: #0077B5;
+}
+
+.link-job-box {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  margin: 30px;
+}
+
+.link-titles {
+  align-items: center;
+  display: flex;
+}
+
+.links-area {
+
+}
+
+.links-head {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.links-icon {
+  height: 24px;
+  margin-right: 10px;
+  width: 24px;
+}
+
+.links-text {
+  width: 412px;
+}
+
 .locations-btn {
   width: 150px;
 }
@@ -343,6 +398,13 @@ hr {
   justify-content: space-between;
   margin: 0;
   width: 260px;
+}
+
+.media-logo {
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 100px;
+  width: 20px;
 }
 
 .menu-btn {
@@ -494,6 +556,18 @@ hr {
   grid-row-end: 9;
 }
 
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  height: 222px;
+  margin: 30px;
+  justify-content: space-around;
+}
+
 .status-body {
   margin-left: 70px;
 }
@@ -514,6 +588,17 @@ hr {
   border-bottom: solid 1px;
   height: 250px;
   padding-left: 20px;
+}
+
+.twitter {
+  background-color: #1DCAFF;
+}
+
+.twitter-logo {
+  height: 20px;
+  margin-left: 20px;
+  margin-right: 110px;
+  width: 20px;
 }
 
 .users-btn {
