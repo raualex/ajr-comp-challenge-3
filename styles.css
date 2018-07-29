@@ -106,6 +106,15 @@ hr {
   width: 660px;
 }
 
+.description-box {
+  align-items: center;
+  background-color: #ffffff;
+  color: #717E93;
+  display: flex;
+  font-weight: 700;
+  height: 160px;
+}
+
 .design-check {
   width: 116px;
 }
@@ -113,6 +122,20 @@ hr {
 .down-arrow {
   height: 12px;
   width: 12px;
+}
+
+.edit-button {
+  align-content: center;
+  background-color: #7F8BA3;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  display: flex;
+  height: 34px;
+  width: 76px;
+}
+
+.edit-pencil {
+  margin-right: 5px;
 }
 
 .executive-check {
@@ -200,6 +223,11 @@ hr {
   filter: brightness(100)
 }
 
+.info-title {
+  margin-left: 38px;
+  margin-right: 46px;
+}
+
 .jobs-btn {
   width: 90px;
 }
@@ -216,8 +244,19 @@ hr {
   grid-row-end: 9;
 }
 
-.job-details-header {
+.job-description-text {
+  color: #ffffff;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-right: 30px;
+}
 
+.job-details-header {
+  align-items: center;
+  background-color: #717E93;
+  display: flex;
+  height: 78px;
+  justify-content: flex-start;
 }
 
 .job-details {
@@ -226,6 +265,15 @@ hr {
   grid-column-end: 5;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+.job-info-box {
+  align-items: center;
+  background-color: #ffffff;
+  color: #717E93;
+  display: flex;
+  font-weight: 700;
+  height: 78px;
 }
 
 .job-location {
@@ -355,6 +403,14 @@ hr {
 
 .resumes-btn {
   width: 126px;
+}
+
+.reynholm-logo {
+  border: solid 2px #717E93;
+  border-radius: 150%;
+  height: 60px;
+  margin-right: 26px;
+  width: 60px;
 }
 
 .search-bar {
