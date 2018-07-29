@@ -2,12 +2,28 @@ body {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px 180px 50px 1fr 1fr;
+  grid-template-rows: 100px 240px 50px 510px 1fr 1fr;
   margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
 }
 
 .admin-check {
   width: 172px;
+}
+
+.bar-caption {
+  width: 186px;
+}
+
+.bar-graph-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 43%;
 }
 
 .body-nav-tabs {
@@ -17,7 +33,15 @@ body {
   grid-row-start: 3;
   grid-row-end: 4;
   justify-content: flex-start;
-  padding-left: 40px;
+  padding-left: 54px;
+}
+
+.border-break {
+  background-color: #EEF2F6;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
 }
 
 .button-head {
@@ -35,6 +59,32 @@ body {
 
 .calendar-btn {
   width: 138px;
+}
+
+.captions {
+  background-color: #FFFFFF;
+  border: solid 2px #E1E1E3;
+  border-radius: 30px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+
+.circle-caption {
+  width: 270px;
+}
+
+.circle-graph-box {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 57%;
+}
+
+.circle-graphs {
+  height: 260px;
+  width: 660px;
 }
 
 .design-check {
@@ -58,6 +108,20 @@ body {
   height: 450px;
   justify-content: space-around;
   padding-left: 20px;
+}
+
+.graph-area {
+  align-items: center;
+  background-color: #EEF2F6;
+  display: flex;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.graph-box {
+  height: 430px;
 }
 
 .green-circle {
@@ -198,7 +262,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 6;
+  grid-row-end: 7;
   padding: 40px 0 0 0;
 }
 
@@ -259,7 +323,6 @@ body {
 .search-icons {
   height: 30px;
   width: 30px;
-
 }
 
 .search-menu {
@@ -295,6 +358,13 @@ body {
 
 .users-btn {
   width: 110px;
+}
+
+.up-arrow {
+  background-color: #ffffff;
+  border-radius: 150%;
+  height: 40px;
+  width: 40px;
 }
 
 .user-location {
