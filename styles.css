@@ -2,7 +2,7 @@ body {
   display: grid;
   font-family: 'Open Sans', sans-serif;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 100px 240px 50px 510px 1fr 1fr;
+  grid-template-rows: 100px 240px 50px 510px 50px 1fr;
   margin: 0;
 }
 
@@ -38,6 +38,8 @@ h1 {
 
 .border-break {
   background-color: #EEF2F6;
+  display: flex;
+  justify-content: center;
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 5;
