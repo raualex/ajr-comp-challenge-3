@@ -22,6 +22,19 @@ hr {
   width: 172px;
 }
 
+.approved-salary-box {
+  align-items: center;
+  color: #717E93;
+  display: flex;
+  font-weight: 700;
+  height: 120px;
+}
+
+.approved-title {
+  margin-left: 0;
+  margin-right: 28px;
+}
+
 .bar-caption {
   width: 186px;
 }
@@ -106,9 +119,14 @@ hr {
   width: 660px;
 }
 
+.description-body {
+  margin-left: 22px;
+}
+
 .description-box {
   align-items: center;
   background-color: #ffffff;
+  border-bottom: solid 1px #E1E1E3;
   color: #717E93;
   display: flex;
   font-weight: 700;
@@ -138,8 +156,17 @@ hr {
   margin-right: 5px;
 }
 
+.employment-title {
+  margin-left: 0;
+  margin-right: 18px;
+}
+
 .executive-check {
   width: 136px;
+}
+
+.experience-body {
+  margin-left: 32px;
 }
 
 .first-menu,
@@ -223,8 +250,14 @@ hr {
   filter: brightness(100)
 }
 
+.info-body-container {
+  background-color: #ffffff;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .info-title {
-  margin-left: 38px;
+  margin-left: 0;
   margin-right: 46px;
 }
 
@@ -260,20 +293,20 @@ hr {
 }
 
 .job-details {
-  border: solid 1px #000000;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 6;
   grid-row-end: 9;
+  margin: 40px;
 }
 
 .job-info-box {
   align-items: center;
-  background-color: #ffffff;
+  border-bottom: solid 1px #E1E1E3;
   color: #717E93;
   display: flex;
   font-weight: 700;
-  height: 78px;
+  height: 120px;
 }
 
 .job-location {
@@ -292,6 +325,10 @@ hr {
 
 .locations-btn {
   width: 150px;
+}
+
+.location-body {
+  margin-left: 42px;
 }
 
 .location-indicator {
@@ -409,6 +446,7 @@ hr {
   border: solid 2px #717E93;
   border-radius: 150%;
   height: 60px;
+  margin-left: 24px;
   margin-right: 26px;
   width: 60px;
 }
@@ -454,6 +492,10 @@ hr {
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+.status-body {
+  margin-left: 70px;
 }
 
 .summary-tab {
