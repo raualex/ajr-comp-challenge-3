@@ -30,6 +30,10 @@ hr {
   align-items: center;
   display: flex;
   flex-direction: column;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
   justify-content: space-around;
   width: 43%;
 }
@@ -88,6 +92,10 @@ hr {
 .circle-graph-box {
   align-items: center;
   display: flex;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
   flex-direction: column;
   justify-content: space-around;
   width: 57%;
@@ -152,6 +160,10 @@ hr {
 .header-buttons {
   align-items: center;
   display: flex;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
   justify-content: space-around;
   width: 362px;;
 }
@@ -201,6 +213,10 @@ hr {
   display: flex;
   flex-direction: column;
   font-weight: 700;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
   justify-content: center;
   padding-left: 60px;
   width: 60%;
