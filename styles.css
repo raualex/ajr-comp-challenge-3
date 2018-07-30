@@ -996,6 +996,22 @@ body {
 
 }
 
+@media screen and (max-width: 700px) {
+
+.circle-graphs {
+  height: 220px;
+  width: 550px;
+}
+
+}
+
+@media screen and (max-width: 688px) {
+
+.header-title {
+  text-align: center;
+}
+
+}
 
 @media screen and (max-width: 620px) {
 
@@ -1009,11 +1025,62 @@ body {
 
 }
 
+@media screen and (max-width: 600px) {
+
+.circle-graphs {
+  height: 208px;
+  width: 500px;
+}
+
+}
+
+@media screen and (max-width: 540px) {
+
+.approved-salary-box,
+.job-info-box,
+.description-box {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.approved-title,
+.employment-title,
+.info-title {
+  margin-right: 0;
+}
+
+.description-body,
+.experience-body,
+.location-body,
+.status-body {
+  margin-left: 0;
+}
+
+.hiring-lead-box {
+  height: 182px;
+}
+
+}
+
 @media screen and (max-width: 526px) {
+
+.graph-box {
+ height: 320px;
+}
+
+.bar-graph-img {
+  width: 350px;
+}
+
+.circle-graphs {
+  height: 170px;
+  width: 420px;
+}
 
 .link-p,
 .email-box {
-  width: 412px;
+  align-items: center;
+  width: 374px;
 }
 
 }
@@ -1030,7 +1097,13 @@ body {
 
 }
 
+@media screen and (max-width: 620px) {
 
+.job-location {
+  width: 300px;
+}
+
+}
 
 
 
