@@ -823,6 +823,10 @@ body {
   flex-direction: column;
 }
 
+.email-box {
+  width: 100%;
+}
+
 .facebook, .twitter, .linkedin {
   width: 80%;
 }
@@ -839,8 +843,17 @@ body {
   align-items: center;
 }
 
-.links-area {
+.links-area,
+.links-area-bottom {
   width: 80%;
+}
+
+.link-p {
+  width: 100%;
+}
+
+.links-text {
+  width: 100%;
 }
 
 .media-logo {
@@ -996,6 +1009,14 @@ body {
 
 }
 
+@media screen and (max-width: 526px) {
+
+.link-p,
+.email-box {
+  width: 412px;
+}
+
+}
 
 @media screen and (max-width: 500px) {
 
