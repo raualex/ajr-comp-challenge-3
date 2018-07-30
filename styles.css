@@ -312,6 +312,12 @@ h1 {
   padding-left: 54px;
 }
 
+.job-right-arrow {
+  display: none;
+  height: 20px;
+  width: 20px;
+}
+
 .nav-tab {
   align-items: center;
   color: #A2ABBD;
@@ -326,11 +332,11 @@ h1 {
   border:  solid 1px #47A3F3;
 }
 
-.nav-tab:hover .nav-text {
+.nav-tab:hover .broadcast-text {
   filter: brightness(100)
 }
 
-.nav-tab:hover .right-arrow {
+.nav-tab:hover .nav-text {
   filter: brightness(100)
 }
 
@@ -745,6 +751,10 @@ body {
 
 @media screen and (max-width: 1368px) {
 
+.header-buttons {
+  margin-left: 48px;
+}
+
 .description-box {
   height: 204px;
 }
@@ -759,12 +769,28 @@ body {
 
 }
 
+@media screen and (max-width: 1299px) {
+
+.header-buttons {
+  margin-left: 15px;
+}
+
+}
+
 @media screen and (max-width: 1231px) {
 
 .description-box {
   height: 310px;
 }
  
+}
+
+@media screen and (max-width: 1217px) {
+
+.header-buttons {
+  margin-left: 0;
+}
+
 }
 
 @media screen and (max-width: 1196px) {
@@ -805,6 +831,10 @@ body {
   display: none;
 }  
 
+.nav-tab:hover .right-arrow {
+  filter: brightness(100)
+}
+
 .notifications-tab {
   display: none;
 }
@@ -814,6 +844,120 @@ body {
 }
 
 }
+
+@media screen and (max-width: 1080px) {
+
+.header-buttons {
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.headline-area {
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.job-location {
+  align-items: center;
+  grid-column-start: 2;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding: 0;
+}
+
+}
+
+@media screen and (max-width: 954px) {
+
+.body-nav-tabs {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-content: center;
+}
+
+.border-break {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+.bottom-half-container {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+.graph-area {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.headline-area {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.interviews-btn,
+.activity-btn,
+.broadcast-btn {
+  display: none;
+}
+
+.job-board-text {
+  display: none;
+}
+
+.job-right-arrow {
+  display: block;
+}
+
+.navigation-sidebar{
+  display: none;
+}
+
+.nav-tab:hover .job-right-arrow {
+  filter: brightness(100)
+}
+
+.search-menu {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+}
+
+@media screen and (max-width: 954px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
