@@ -115,25 +115,26 @@
       </section>
       <section role="navigation" class="body-nav-tabs">
         <div aria-label="Click here for account summary" class="nav-tab summary-tab">
-          <p>SUMMARY</p>
+          <p class="nav-text">SUMMARY</p>
         </div>
         <div aria-label="Click here for current applicants" class="nav-tab">
-          <p>APPLICANTS</p>
+          <p class="nav-text">APPLICANTS</p>
         </div>
         <div aria-label="Click here for job postings" class="nav-tab">
-          <p>JOB BOARD</p>
+          <p class="nav-text">JOB BOARD</p>
         </div>
         <div aria-label="Click here for interview schedules" class="nav-tab">
-          <p>INTERVIEWS</p>
+          <p class="nav-text">INTERVIEWS</p>
         </div>
         <div aria-label="Click here for company activities" class="nav-tab">
-          <p>ACTIVITY</p>
+          <p class="nav-text">ACTIVITY</p>
         </div>
-        <div aria-label="Click here to access message boards" class="nav-tab">
-          <p>BROADCAST</p>
+        <div aria-label="Click here to access message boards" class="nav-tab broadcast-btn">
+          <p class="broadcast-text">BROADCAST</p>
+          <img src="Images/001-angle-arrow-pointing-to-right.svg" alt="Right pointing arrow" aria-label="Click here to see the rest of the menu" class="right-arrow">
         </div>
         <div aria-label="Click here for notifications" class="nav-tab notifications-tab">
-          <p>NOTIFICATIONS</p>
+          <p class="nav-text">NOTIFICATIONS</p>
         </div>
       </section>
       <section role="main" aria-label="Summary-graphs" class="graph-area">
@@ -159,102 +160,104 @@
           <hr />
         </div>
       </section>
-      <section role="contentinfo" class="job-description-box" aria-label="Job description details">
-        <div class="job-details">
-          <div class="job-details-header">
-            <p class="job-description-text">JOB DESCRIPTION</p>
-            <button class="edit-button"><img src="Images/013-pencil-edit-button.svg" alt="Edit job description icon" class="button-icon edit-pencil" aria-label="Click here to edit job description">EDIT</button>
+      <section class="bottom-half-container">
+        <section role="contentinfo" class="job-description-box" aria-label="Job description details">
+          <div class="job-details">
+            <div class="job-details-header">
+              <p class="job-description-text">JOB DESCRIPTION</p>
+              <button class="edit-button"><img src="Images/013-pencil-edit-button.svg" alt="Edit job description icon" class="button-icon edit-pencil" aria-label="Click here to edit job description">EDIT</button>
+            </div>
+            <div class="info-body-container">
+              <div class="job-info-box">
+                <p class="info-title">POSITION TITLE</p>
+                <p>Chief Executive Officer</p>
+              </div> 
+              <div class="job-info-box">
+                <p class="info-title">LOCATION</p>
+                <p class="location-body">London, UK</p>
+              </div> 
+              <div class="job-info-box">
+                <p class="employment-title">EMPLOYMENT TYPE</p>
+                <p>Full-time</p>
+              </div> 
+             <div class="job-info-box">
+               <p class="info-title">EXPERIENCE</p>
+               <p class="experience-body">High-level</p>
+              </div>
+             <div class="job-info-box">
+                <p class="info-title">STATUS</p>
+               <p class="status-body">Open</p>
+              </div>
+              <div class="description-box">
+                <p class="info-title">DESCRIPTION</p>
+                <p class="description-body">The Chief Executive Officer is responsible for being the boss and being in charge of everyday things.  I believe there is an IT Department in the basement I would visit on occasion.  Recent events have caused the CEO to vacate the regular   office and relocate to said basement IT office.</p>
+              </div> 
+              <div class="job-info-box">
+                <p class="info-title">HIRING LEAD</p>
+                <img src="Images/Reynholmlogo.png" alt="Reynholm Industries logo" aria-label="Reynholm Industries logo"  class="reynholm-logo">
+                <p>- Tbd -</p>
+              </div> 
+              <div class="approved-salary-box">
+                <p class="approved-title">APPROVED SALARY</p>
+                <p>£ 900,000 +</p>
+              </div>
+            </div>  
           </div>
-          <div class="info-body-container">
-            <div class="job-info-box">
-              <p class="info-title">POSITION TITLE</p>
-              <p>Chief Executive Officer</p>
-            </div> 
-            <div class="job-info-box">
-              <p class="info-title">LOCATION</p>
-              <p class="location-body">London, UK</p>
-            </div> 
-            <div class="job-info-box">
-              <p class="employment-title">EMPLOYMENT TYPE</p>
-              <p>Full-time</p>
-            </div> 
-            <div class="job-info-box">
-              <p class="info-title">EXPERIENCE</p>
-              <p class="experience-body">High-level</p>
-            </div>
-            <div class="job-info-box">
-              <p class="info-title">STATUS</p>
-             <p class="status-body">Open</p>
-            </div>
-            <div class="description-box">
-              <p class="info-title">DESCRIPTION</p>
-              <p class="description-body">The Chief Executive Officer is responsible for being the boss and being in charge of everyday things.  I believe there is an IT Department in the basement I would visit on occasion.  Recent events have caused the CEO to vacate the regular   office and relocate to said basement IT office.</p>
-            </div> 
-            <div class="job-info-box">
-              <p class="info-title">HIRING LEAD</p>
-              <img src="Images/Reynholmlogo.png" alt="Reynholm Industries logo" aria-label="Reynholm Industries logo"  class="reynholm-logo">
-              <p>- Tbd -</p>
-            </div> 
-            <div class="approved-salary-box">
-              <p class="approved-title">APPROVED SALARY</p>
-              <p>£ 900,000 +</p>
-            </div>
-          </div>  
-        </div>
-      </section>
-      <section role="complementary" class="social-media-area" aria-label="Social media links and areas to link to this job, share this job and upload your resume">
-        <div class="social-media-links" aria-label="Social media links">
-         <button class="facebook" aria-label="Click here to post to facebook">
-            <img src="Images/017-facebook-logo.svg" alt="Facebook logo" class="media-logo">
-            Post to Facebook
-         </button>
-         <button class="twitter" aria-label="Click here to tweet this job on Twitter">
-            <img src="Images/016-twitter-logo-silhouette.svg" alt="Twitter logo" class="twitter-logo">
-            Tweet this Job
-         </button>
-         <button class="linkedin" aria-label="Click here to post this job to linked in">
-            <img src="Images/015-linkedin.svg" alt="Linkedin logo" class="media-logo">
-            Post to Linkedin
-         </button>
-        </div> 
-        <div class="link-job-box" aria-label="Send links to sicial media here">
-          <div class="links-area" aria-label="Copy the link to this job for your records">
-            <div class="link-titles">
-              <img src="Images/005-earth-globe.svg" alt="Globe icon" class="links-icon">
-              <h4 class="links-head">Link to this Job</h4>
-            </div>
-            <p class="links-text">Here you can copy the link to this page for your records.  Just press the "Copy" button below.</p>
-            <div class="link-box">
-              <div class="link-p">
-                <p class="link">http://loremipsum.dol/sit_amet...</p>
-                <button class="copy-button" aria-label="Click here to copy the link to this job page">Copy</button> 
+        </section>
+        <section role="complementary" class="social-media-area" aria-label="Social media links and areas to link to this job, share this job and upload your resume">
+          <div class="social-media-links" aria-label="Social media links">
+           <button class="facebook" aria-label="Click here to post to facebook">
+              <img src="Images/017-facebook-logo.svg" alt="Facebook logo" class="media-logo">
+              Post to Facebook
+           </button>
+           <button class="twitter" aria-label="Click here to tweet this job on Twitter">
+              <img src="Images/016-twitter-logo-silhouette.svg" alt="Twitter logo" class="twitter-logo">
+              Tweet this Job
+           </button>
+           <button class="linkedin" aria-label="Click here to post this job to linked in">
+              <img src="Images/015-linkedin.svg" alt="Linkedin logo" class="media-logo">
+              Post to Linkedin
+           </button>
+          </div> 
+          <div class="link-job-box" aria-label="Send links to sicial media here">
+            <div class="links-area" aria-label="Copy the link to this job for your records">
+              <div class="link-titles">
+                <img src="Images/005-earth-globe.svg" alt="Globe icon" class="links-icon">
+                <h4 class="links-head">Link to this Job</h4>
+              </div>
+              <p class="links-text">Here you can copy the link to this page for your records.  Just press the "Copy" button below.</p>
+              <div class="link-box">
+                <div class="link-p">
+                  <p class="link">http://loremipsum.dol/sit_amet...</p>
+                  <button class="copy-button" aria-label="Click here to copy the link to this job page">Copy</button> 
+                </div>
               </div>
             </div>
-          </div>
-          <div class="links-area" aria-label="Use the button widget in this area">
-            <div class="link-titles bottom-half-link">
-              <img src="Images/004-calculator.svg" alt="Button widget icon" class="links-icon">
-              <h4 class="links-head">Use the Button Widget</h4>
+            <div class="links-area" aria-label="Use the button widget in this area">
+              <div class="link-titles bottom-half-link">
+                <img src="Images/004-calculator.svg" alt="Button widget icon" class="links-icon">
+                <h4 class="links-head">Use the Button Widget</h4>
+              </div>
+              <p class="links-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+              <div class="link-box">
+                <div class="link-p">
+                  <p class="link">script type='text/javascript' s...</p>
+                  <button class="copy-button" aria-label="Click here to copy code for the button widget">Copy</button>
+                </div> 
+              </div>
             </div>
-            <p class="links-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
-            <div class="link-box">
-              <div class="link-p">
-                <p class="link">script type='text/javascript' s...</p>
-                <button class="copy-button" aria-label="Click here to copy code for the button widget">Copy</button>
-              </div> 
+            <div class="links-area-bottom" aria-label="This area provides the email address to send your resume to">
+              <div class="link-titles bottom-half-link">
+                <img src="Images/003-paper-plane.svg" alt="Send an email icon" class="links-icon">
+                <h4 class="links-head">Upload Resumes by Email</h4>
+              </div>
+              <p class="links-text">You can automatically upload multiple resumes to this job by emailing the address below.</p>
+              <div class="email-box">
+                <p class="email">dreynholm@r-industries.co.uk</p>
+              </div>
             </div>
-          </div>
-          <div class="links-area-bottom" aria-label="This area provides the email address to send your resume to">
-            <div class="link-titles bottom-half-link">
-              <img src="Images/003-paper-plane.svg" alt="Send an email icon" class="links-icon">
-              <h4 class="links-head">Upload Resumes by Email</h4>
-            </div>
-            <p class="links-text">You can automatically upload multiple resumes to this job by emailing the address below.</p>
-            <div class="email-box">
-              <p class="email">dreynholm@r-industries.co.uk</p>
-            </div>
-          </div>
-        </div>     
-      </section>
+          </div>     
+        </section>
+      </section>  
     </body>
   </html>
