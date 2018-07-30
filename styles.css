@@ -68,6 +68,10 @@ h1 {
   grid-row-end: 6;
 }
 
+.bottom-half-link {
+  margin-top: 26px;
+}
+
 .button-head {
   background-color: #ffffff;
   border: solid 2px #E1E1E3;
@@ -119,6 +123,7 @@ h1 {
   background-color: #65BABC;
   border: none;
   color: #ffffff;
+  width: 80px;
 }
 
 .description-body {
@@ -195,6 +200,16 @@ h1 {
   height: 450px;
   justify-content: space-around;
   padding-left: 20px;
+}
+
+.email {
+  margin-left: 32px;
+}
+
+.email-box {
+  background-color: #ffffff;
+  border: solid 1px #ffffff;
+  width: 412px;
 }
 
 .graph-area {
@@ -342,16 +357,32 @@ h1 {
   width: 60%;
 }
 
+.link {
+  margin-left: 32px;
+}
+
 .linkedin {
   background-color: #0077B5;
 }
 
 .link-job-box {
+  display: flex;
+  flex-direction: column;
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 7;
   grid-row-end: 9;
+  height: 790px;
+  justify-content: space-around;
   margin: 30px;
+}
+
+.link-p {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 412px;
 }
 
 .link-titles {
@@ -360,7 +391,18 @@ h1 {
 }
 
 .links-area {
+  border-bottom: solid 2px #E1E1E3;
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  justify-content: space-around;
+}
 
+.links-area-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 240px;
+  justify-content: space-around;
 }
 
 .links-head {
@@ -563,7 +605,7 @@ h1 {
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 7;
-  height: 222px;
+  height: 240px;
   margin: 30px;
   justify-content: space-around;
 }
