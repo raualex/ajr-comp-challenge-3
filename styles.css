@@ -248,6 +248,7 @@ h1 {
   grid-row-start: 4;
   grid-row-end: 5;
   justify-content: space-around;
+  margin-left: 68px;
   width: 362px;;
 }
 
