@@ -223,6 +223,15 @@ h1 {
   width: 50px;
 }
 
+.button-head:hover {
+  background-color: #47A3F3;
+  color: #ffffff;
+}
+
+.button-head:hover .button-icon {
+  filter: brightness(100)
+}
+
 .button-icon {
   height: 20px;
   width: 20px;
@@ -366,7 +375,8 @@ h1 {
   background-color: #47A3F3;
   border:  solid 1px #47A3F3;
   color: #ffffff;
-  margin-right: 4px;
+  margin-left: 0;
+  margin-right: 14px;
   width: 102px;
 }
 
@@ -661,7 +671,9 @@ h1 {
   width: 80px;
 }
 
-.email {
+.e-link,
+.email,
+.link {
   margin-left: 32px;
 }
 
@@ -669,10 +681,6 @@ h1 {
   background-color: #ffffff;
   border: solid 1px #ffffff;
   width: 412px;
-}
-
-.link {
-  margin-left: 32px;
 }
 
 .link-job-box {
@@ -728,6 +736,11 @@ h1 {
 .link-titles {
   align-items: center;
   display: flex;
+}
+
+.secondary-link-text {
+  display: none;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 1387px) {
@@ -1015,6 +1028,10 @@ body {
 
 @media screen and (max-width: 620px) {
 
+.job-location {
+  width: 300px;
+}
+
 .media-logo {
   margin-right: 27%;
 }
@@ -1077,10 +1094,31 @@ body {
   width: 420px;
 }
 
-.link-p,
-.email-box {
+.copy-button {
+  height: 90px;
+}
+
+.e-link {
+  display: none;
+}
+
+.email {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.link {
+  margin-left: 20px;
+}
+
+.email-box,
+.link-p {
   align-items: center;
-  width: 374px;
+  height: 90px;
+}
+
+.secondary-link-text {
+  display: block;
 }
 
 }
@@ -1097,14 +1135,13 @@ body {
 
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width : 440px) {
 
-.job-location {
-  width: 300px;
+.links-head {
+  font-size: 1.25rem;
 }
 
 }
-
 
 
 
