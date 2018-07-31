@@ -22,4 +22,4 @@ For this challenge, I stuck pretty close to the comp, as there are a lot of movi
 
 Image of the Comp: ![alt text](https://raw.githubusercontent.com/raualex/ajr-comp-challenge-3/Write-README/Images/static-comp-challenge-3.png)
 
-Image of my version: ![alt text]()
+Image of my version: ![alt text](https://raw.githubusercontent.com/raualex/ajr-comp-challenge-3/Finishing-tweaks/Images/static-comp-3-finished.png)
