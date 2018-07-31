@@ -26,12 +26,37 @@ h1 {
   width: 172px;
 }
 
+.admin-checkmark {
+  align-items: center;
+  background-color: #ffff00;
+  display: flex;
+  height: 15px;
+  justify-content: center;
+  width: 15px;
+}
+
 .calendar-btn {
   width: 138px;
 }
 
+.checkbox {
+  display: none;
+}
+
+.check-mark {
+  height: 10px;
+  width: 9px;
+}
+
 .design-check {
+  padding-right: 9px;
   width: 116px;
+}
+
+.design-checkmark {
+  background-color: #67b2ff;
+  height: 15px;
+  width: 15px;
 }
 
 .down-arrow {
@@ -39,7 +64,14 @@ h1 {
   width: 12px;
 }
 
+.exec-checkmark {
+  background-color: #ff0000;
+  height: 15px;
+  width: 15px;
+}
+
 .executive-check {
+  padding-right: 2px;
   width: 136px;
 }
 
@@ -59,6 +91,12 @@ h1 {
 
 .hr-check {
   width: 202px;
+}
+
+.hr-checkmark {
+  background-color: #0dba86;
+  height: 15px;
+  width: 15px;
 }
 
 .job-boards-btn {
@@ -195,6 +233,11 @@ h1 {
   height: 100px;
   text-indent: 66px;
   width: 100%;
+}
+
+.search-bar:focus {
+  background-image: none;
+  text-indent: 30px;
 }
 
 .search-bar::placeholder {
@@ -1147,6 +1190,10 @@ body {
 
 .horizontal-break {
   width: 34%;
+}
+
+.search-bar::placeholder {
+  visibility: hidden;
 }
 
 }
