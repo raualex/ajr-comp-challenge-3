@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+button:focus {
+  outline: 0;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -778,6 +782,14 @@ h1 {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 1428px) {
+
+.horizontal-break {
+  width: 44%;
+}
+
+}
+
 @media screen and (max-width: 1387px) {
  
 body {
@@ -885,6 +897,10 @@ body {
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+.horizontal-break {
+  width: 42%;
 }
 
 .link-job-box {
@@ -1032,6 +1048,14 @@ body {
 
 }
 
+@media screen and (max-width: 900px) {
+
+.horizontal-break {
+  width: 40%;
+}
+
+}
+
 @media screen and (max-width: 790px) {
 
 .media-logo {
@@ -1049,6 +1073,10 @@ body {
 .circle-graphs {
   height: 220px;
   width: 550px;
+}
+
+.horizontal-break {
+  width: 37%;
 }
 
 }
@@ -1115,6 +1143,10 @@ body {
 
 .hiring-lead-box {
   height: 182px;
+}
+
+.horizontal-break {
+  width: 34%;
 }
 
 }
@@ -1245,6 +1277,10 @@ body {
   width: 100%;
 }
 
+.horizontal-break {
+  width: 27%;
+}
+
 .links-area {
   width: 100%;
 }
@@ -1285,9 +1321,47 @@ body {
 
 }
 
+@media screen and (min-width: 1490px) {
 
+.header-buttons {
+  margin-left: 102px;
+}
 
+.horizontal-break {
+  width: 44%;
+}
 
+}
 
+@media screen and (min-width: 1690px) {
 
+.header-buttons {
+  margin-left: 154px;
+}
+
+.horizontal-break {
+    width: 45%;
+}
+
+}
+
+@media screen and (min-width: 1790px) {
+
+.header-buttons {
+  margin-left: 190px;
+}
+
+}
+
+@media screen and (min-width: 1830px) {
+
+.header-buttons {
+  margin-left: 206px;
+}
+
+.horizontal-break {
+    width: 45.5%;
+}
+
+}
 
