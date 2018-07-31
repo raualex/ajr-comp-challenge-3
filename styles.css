@@ -366,7 +366,8 @@ h1 {
   background-color: #47A3F3;
   border:  solid 1px #47A3F3;
   color: #ffffff;
-  margin-right: 4px;
+  margin-left: 0;
+  margin-right: 14px;
   width: 102px;
 }
 
