@@ -1093,12 +1093,17 @@ body {
 .description-box {
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .approved-title,
 .employment-title,
 .info-title {
   margin-right: 0;
+}
+
+.description-body {
+  text-align: left;
 }
 
 .description-body,
@@ -1184,9 +1189,12 @@ body {
   grid-template-rows: 100px 240px 50px 580px 50px 1fr 1fr 1fr;
 }
 
-
 .bar-graph-img {
   width: 322px;
+}
+
+.body-nav-tabs {
+  padding-left: 0;
 }
 
 .circle-graphs {
@@ -1225,6 +1233,32 @@ body {
 
 }
 
+@media screen and (max-width: 370px) {
+
+.description-box {
+  height: 370px;
+}
+
+.facebook,
+.twitter,
+.linkedin {
+  width: 100%;
+}
+
+.links-area {
+  width: 100%;
+}
+
+.links-area-bottom {
+  width: 100%;
+}
+
+.job-details {
+  margin: 30px;
+}
+
+}
+
 @media screen and (max-width : 350px)  {
 
 body {
@@ -1243,7 +1277,13 @@ body {
 
 }
 
+@media screen and (max-width: 329px) {
 
+.description-box {
+  height: 390px;
+}
+
+}
 
 
 
