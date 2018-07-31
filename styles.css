@@ -470,6 +470,11 @@ h1 {
   width: 40px;
 }
 
+.up-arrow:hover {
+  background-color: #020202;
+  filter: brightness(100);
+}
+
 /*Job Description box*/
 
 .approved-salary-box {
@@ -515,6 +520,15 @@ h1 {
   display: flex;
   height: 34px;
   width: 76px;
+}
+
+.edit-button:hover {
+  background-color: #ededed;
+  color: #000000;
+}
+
+.edit-button:hover .edit-pencil {
+  filter: brightness(0)
 }
 
 .edit-pencil {
@@ -616,6 +630,20 @@ h1 {
   width: 412px;
 }
 
+.facebook:hover,
+.twitter:hover,
+.linkedin:hover {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 700;
+}
+
+.facebook:hover .media-logo,
+.twitter:hover .twitter-logo,
+.linkedin:hover .media-logo {
+  filter: brightness(0);
+}
+
 .linkedin {
   background-color: #0077B5;
 }
@@ -669,6 +697,12 @@ h1 {
   border: none;
   color: #ffffff;
   width: 80px;
+}
+
+.copy-button:hover {
+  background-color: #ffffff;
+  border: solid 1px #000000;
+  color: #000000;
 }
 
 .e-link,
