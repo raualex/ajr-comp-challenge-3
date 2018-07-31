@@ -225,6 +225,7 @@ h1 {
 
 .button-head:hover {
   background-color: #47A3F3;
+  border: solid 2px #47A3F3;
   color: #ffffff;
 }
 
@@ -1177,11 +1178,70 @@ body {
 
 }
 
+@media screen and (max-width : 430px) {
+
+body {
+  grid-template-rows: 100px 240px 50px 580px 50px 1fr 1fr 1fr;
+}
 
 
+.bar-graph-img {
+  width: 322px;
+}
 
+.circle-graphs {
+  height: 154px;
+  width: 348px;
+}
 
+.graph-box {
+  height: 272px;
+}
 
+}
+
+@media screen and (max-width : 380px) {
+
+.bottom-half-link {
+  margin-top: 0;
+}
+
+.header-buttons {
+  width: 302px;
+}
+
+.job-details-header {
+  flex-direction: column;
+  height: 102px;
+}
+
+.link-titles {
+  margin-bottom: 14px;
+}
+
+.widget-head {
+  margin-top: 0;
+}
+
+}
+
+@media screen and (max-width : 350px)  {
+
+body {
+  grid-template-rows: 100px 240px 50px 560px 50px 1fr 1fr 1fr;
+}
+
+.bar-graph-img {
+    width: 280px;
+}
+
+.circle-graphs {
+  height: 140px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+}
 
 
 
