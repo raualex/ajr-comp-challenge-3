@@ -12,6 +12,10 @@ body {
   margin: 0;
 }
 
+button:focus {
+  outline: 0;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -778,6 +782,14 @@ h1 {
   margin-left: 20px;
 }
 
+@media screen and (max-width: 1428px) {
+
+.horizontal-break {
+  width: 44%;
+}
+
+}
+
 @media screen and (max-width: 1387px) {
  
 body {
@@ -885,6 +897,10 @@ body {
   grid-column-end: 7;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+.horizontal-break {
+  width: 42%;
 }
 
 .link-job-box {
@@ -1032,6 +1048,14 @@ body {
 
 }
 
+@media screen and (max-width: 900px) {
+
+.horizontal-break {
+  width: 40%;
+}
+
+}
+
 @media screen and (max-width: 790px) {
 
 .media-logo {
@@ -1049,6 +1073,10 @@ body {
 .circle-graphs {
   height: 220px;
   width: 550px;
+}
+
+.horizontal-break {
+  width: 37%;
 }
 
 }
@@ -1093,12 +1121,17 @@ body {
 .description-box {
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 .approved-title,
 .employment-title,
 .info-title {
   margin-right: 0;
+}
+
+.description-body {
+  text-align: left;
 }
 
 .description-body,
@@ -1110,6 +1143,10 @@ body {
 
 .hiring-lead-box {
   height: 182px;
+}
+
+.horizontal-break {
+  width: 34%;
 }
 
 }
@@ -1184,9 +1221,12 @@ body {
   grid-template-rows: 100px 240px 50px 580px 50px 1fr 1fr 1fr;
 }
 
-
 .bar-graph-img {
   width: 322px;
+}
+
+.body-nav-tabs {
+  padding-left: 0;
 }
 
 .circle-graphs {
@@ -1225,6 +1265,36 @@ body {
 
 }
 
+@media screen and (max-width: 370px) {
+
+.description-box {
+  height: 370px;
+}
+
+.facebook,
+.twitter,
+.linkedin {
+  width: 100%;
+}
+
+.horizontal-break {
+  width: 27%;
+}
+
+.links-area {
+  width: 100%;
+}
+
+.links-area-bottom {
+  width: 100%;
+}
+
+.job-details {
+  margin: 30px;
+}
+
+}
+
 @media screen and (max-width : 350px)  {
 
 body {
@@ -1243,11 +1313,55 @@ body {
 
 }
 
+@media screen and (max-width: 329px) {
 
+.description-box {
+  height: 390px;
+}
 
+}
 
+@media screen and (min-width: 1490px) {
 
+.header-buttons {
+  margin-left: 102px;
+}
 
+.horizontal-break {
+  width: 44%;
+}
 
+}
 
+@media screen and (min-width: 1690px) {
+
+.header-buttons {
+  margin-left: 154px;
+}
+
+.horizontal-break {
+    width: 45%;
+}
+
+}
+
+@media screen and (min-width: 1790px) {
+
+.header-buttons {
+  margin-left: 190px;
+}
+
+}
+
+@media screen and (min-width: 1830px) {
+
+.header-buttons {
+  margin-left: 206px;
+}
+
+.horizontal-break {
+    width: 45.5%;
+}
+
+}
 
