@@ -1,5 +1,7 @@
 # ajr-comp-challenge-3
 
+This page is currently live, via GitHub Pages: https://raualex.github.io/ajr-comp-challenge-3/
+
 ## To Start Up This Page, Locally:
 
 Clone down this Repo
