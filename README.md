@@ -1,5 +1,15 @@
 # ajr-comp-challenge-3
 
+## To Start Up This Page, Locally:
+
+Clone down this Repo
+
+Run `npm install` from the terminal
+
+Run `open index.html` from the terminal
+
+## Challenge Guidelines
+
 Static Comp Challenge #3
 
 - Alexander Rau -
